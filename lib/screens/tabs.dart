@@ -71,7 +71,10 @@ class _TabsScreenState extends State<TabsScreen> {
       );
 
       setState(() {
-        _selectedFilters = result ?? kInitialFilters;
+        _selectedFilters = result ??
+            kInitialFilters; 
+            // Special operation that checks for whether the value in front is Null, 
+            //if so the value behind the ?? will be used.
       });
     }
   }
