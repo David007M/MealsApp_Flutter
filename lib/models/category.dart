@@ -11,3 +11,4 @@ class Category {
   final String title;
   final Color color;
 }
+// all the properties that are need for the meals.
